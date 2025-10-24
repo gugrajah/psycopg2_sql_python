@@ -1,16 +1,16 @@
 # Simple Pyscopg2 Project
 
-Simple project to demonstrate the use of *Psycopg2*, a popular PostgreSQL adapter for the Python programming language.
+Simple project to demonstrate the use of **Psycopg2**, a popular PostgreSQL adapter for the Python programming language.
 
 ### Core Functionality
 **Database Connectivity**: Use psycopg2 to establish and manage connections to a PostgreSQL database from a Python application. The primary entry point is the psycopg2.connect() function.
 
-**Executing SQL**: Execute arbitrary SQL commands—such as SELECT, INSERT, UPDATE, DELETE, and DDL statements (CREATE TABLE, etc.)—using cursor.execute().
+**Executing SQL**: Execute arbitrary SQL commands—such as ```SELECT, INSERT, UPDATE, DELETE, and DDL``` statements (CREATE TABLE, etc.)—using ```cursor.execute()```.
 
 **Transaction Management**: psycopg2 handles database transactions.
 
-Call connection.commit() after data modification (e.g., INSERT, UPDATE, DELETE) to make the changes permanent.
-Call connection.rollback() to discard changes in case of an error or undesirable state.
+```Call connection.commit()``` after data modification (e.g., INSERT, UPDATE, DELETE) to make the changes permanent.
+```Call connection.rollback()``` to discard changes in case of an error or undesirable state.
 Fetching Results: Retrieve query results (from SELECT statements) using cursor methods like:
 
 
